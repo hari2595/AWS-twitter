@@ -1,5 +1,4 @@
 # AWS-youtube
-# azure_twitter
 <br>
 This an end to end project where we do some basic transformtion and data processing on youtube analytics Data from the youtube API. The data is stored in an initial landing bucket which is then transformed with the help of Amazon Glue and Amazon Lambda. Finally we use a Glue job to store our data in a analytics DB in Amazon Athena. This DB is connected with Tableau and we are able to do some data exploration and identify key metrics with Tableau Visualization.
 <br>
@@ -33,4 +32,3 @@ Step 10: Go to flue studio to create a Glue union job that joins both the file w
 Step 11: Save the new table into an analytical DB, create a landing bucket to save the data <br><br>
 Step 12: Use your IAM user credential to connect to tableau<br><br>
 Step 13: An example of possible data exploration is attached in the tableau file and a tableau workbook is also given. <br><br>
-
